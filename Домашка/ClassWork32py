@@ -1,0 +1,14 @@
+# i = 0
+# while i < 10:
+#     if i == 3:
+#         i += 1
+#         continue # пропускает все условия цикла после себя
+#     print(i, end " ")
+#     if i == 5:
+#         break
+
+while True:
+    n = int(input("Введите положительное число: "))
+    if not n > 0:
+        break
+    
